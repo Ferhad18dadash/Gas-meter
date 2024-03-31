@@ -38,12 +38,5 @@ public class Isci {
 		this.password = password;
 	}
 
-	public static void hesabla(Musteri musteri) {
-		Scanner scan = new Scanner(System.in);
-		double t = 0;
-		System.out.println("miqdari girin");
-		t = scan.nextInt();
-		double task = t * 0.12;
-		musteri.setCast(task);
-	}
+	
 }
